@@ -3,10 +3,72 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+        <a class="logo" href="index.html" title="Дизайн-студия Nёrds">
+            <img class="logo__img" src="img/main-logo.png" width="139" height="56" alt="Дизайн-студия Nёrds">
+        </a>
+        <nav class="main-header-navigation">
+            <ul class="main-header-navigation-list">
+              <li>
+                <a href="index.html">Студия</a>
+              </li>
+              <li>
+                <a href="#">Клиенты</a>
+              </li>
+              <li>
+                <a href="catalog.html">Магазин</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+            <div class="shopping_cart">
+              <a href="#">Корзина</a>
+            </div>
+        </nav>  
+    </header>
+    <main class="container">
+      <section class="offer">
+        <img src="img/Offers_1.png" width="240" height="124" alt="Веб-сайты">
+        <h2>Веб-сайты</h2>
+        <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+        <a class="btn" href="#">Заказать</a>
+      </section>
+      <section class="offer">
+        <img src="img/Offers_2.png" width="240" height="124" alt="Веб-сайты">
+        <h2>Приложения</h2>
+        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+        <a class="btn" href="#">Заказать</a>
+      </section>
+      <section class="offer">
+        <img src="img/Offers_3.png" width="240" height="124" alt="Веб-сайты">
+        <h2>Ппрезентации</h2>
+        <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+        <a class="btn" href="#">Заказать</a>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="social">
+        <a class="icon" href="#">
+          <span class="circle vk"></span>
+        </a>
+        <a class="icon" href="#">
+          <span class="circle fb"></span>
+        </a>
+        <a class="icon" href="#">
+          <span class="circle insta"></span>
+        </a>
+      </div>
+      <div class="footer-slogan">
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
+   
   </body>
 </html>
